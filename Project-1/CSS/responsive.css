@@ -1,0 +1,100 @@
+@media screen and (max-width:920px) {
+
+    .container .card-1 .logo {
+        margin-left: 30%;
+        margin-right: 30%;
+
+    }
+
+    .container .card-1 .none {
+        display: block;
+        height: 40px;
+    }
+
+    .container .card-1 .profile {
+        display: block;
+    }
+
+    .container .card-1 .btn {
+        display: none;
+
+    }
+
+    .container .card-1 .hide {
+        display: none;
+
+    }
+
+    .card-2 .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-2 .part-2 {
+        position: relative;
+
+    }
+
+    .card-2 .part-2 .orange-arrow {
+        position: absolute;
+
+        left: 80px;
+        top: 30px;
+    }
+
+    .card-2 .part-2 .image-bg {
+        position: absolute;
+        left: 90px;
+        top: 30px;
+
+
+    }
+
+    .card-2 .part-2 .image-pattern {
+
+        position: absolute;
+        left: 90px;
+        top: 20px;
+    }
+
+    .card-2 .part-2 .main-image {
+        position: absolute;
+        left: 140px;
+        top: 60px;
+
+    }
+
+    .card-2 .part-2 .green-arrow {
+        position: absolute;
+        left: 50px;
+    }
+
+    .card-2 .part-2 .circle {
+        position: absolute;
+        left: 380px;
+
+     }
+
+    .card-2 .part-3 {
+        margin-top: 400px;
+
+    }
+
+    .card-3 {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        height: 750px;
+        margin-top: 300px;
+        text-align: center;
+    }
+
+    .card-3 .bc-1,
+    .bc-2,
+    .bc-3 {
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
+
+}

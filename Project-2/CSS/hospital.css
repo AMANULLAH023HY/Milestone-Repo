@@ -1,0 +1,560 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 2px solid black;
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+/* ------------------box-1----------------------- -- */
+.box-1 {
+    background: url('/Project2-Hopital/Images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 1350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box-1 nav {
+    /* border: 2px solid red; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    padding-top: 20px;
+}
+
+.box-1 nav h1 {
+    color: white;
+    margin-left: 100px;
+}
+
+.box-1 nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: white;
+}
+
+.box-1 nav ul li {
+    margin-left: 20px;
+}
+
+.box-1 .btn {
+    margin-left: 380px;
+    background-color: rgba(0, 0, 255, 0.539);
+
+    color: white;
+
+    height: 30px;
+    text-align: center;
+
+    padding-top: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.box-1 .btn i {
+    color: white;
+    margin-left: 5px;
+}
+
+/* ------------------box-1------card-1----------------------- -- */
+
+
+.box-1 .card-1 {
+    /* border: 2px solid red; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.box-1 .card-2 {
+    /* border: 2px solid red; */
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.box-1 .card-1 {
+    padding-left: 100px;
+    padding-top: 150px;
+    color: white;
+}
+
+.box-1 .card-1 p {
+    color: rgb(194, 193, 193);
+    margin: 20px 0;
+}
+
+.box-1 .card-1 span {
+    display: flex;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.box-1 .card-1 span .btn-1 {
+    background-color: rgba(0, 0, 255, 0.529);
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.box-1 .card-1 span .btn-2 {
+    /* background-color: rgba(0, 0, 255, 0.354); */
+    height: 30px;
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+
+/* ------------------box-1------card-2----------------------- -- */
+
+.box-1 .card-2 {
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.box-1 .card-2 h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.box-1 .card-2 input,
+select {
+    width: 330px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box-1 .card-2 label,
+span {
+    margin-left: 10px;
+
+}
+
+.box-1 .card-2 .btn-3 {
+    width: 330px;
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0.714);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+}
+
+
+/* ------------------box-2-------------------------*/
+
+.box-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 300px;
+
+}
+
+.box-2 .madicine {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.box-2 .emergency,
+.cancer,
+.helth {
+    height: 320px;
+
+
+    border: 1px solid rgba(7, 121, 203, 0.944);
+    width: 220px;
+    border-radius: 10px;
+}
+
+.box-2 .top-card {
+    background-color: #0b1196bf;
+    /* border: 1px solid rgba(7, 121, 203, 0.944); */
+
+    height: 70px;
+    display: flex;
+    padding-top: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.box-2 .top-card h4 {
+    margin-top: 10px;
+
+}
+
+.box-2 .top-card p {
+    margin: 0 10px;
+
+    background-color: rgb(252, 251, 251);
+    color: rgb(176, 176, 177);
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+
+}
+
+.box-2 ul {
+    list-style: none;
+    margin: 20px 20px;
+}
+
+.box-2 ul li {
+    margin-top: 10px;
+}
+
+.box-2 .text {
+    color: rgba(0, 0, 255, 0.603);
+    font-weight: bold;
+}
+
+
+/* ------------------box-3-------------------------*/
+.box-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 290px;
+
+}
+
+.box-3 .madicine {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.box-3 .star {
+    border: 1px solid gray;
+    width: 195px;
+    height: 150px;
+    padding: 20px 20px;
+}
+
+.box-3 .star ul {
+    list-style: none;
+    display: flex;
+    color: gold;
+    padding-bottom: 20px;
+
+}
+
+
+
+.box-3 .star img {
+    margin-top: 20px;
+}
+
+
+/* ------------------box-4-------------------------*/
+
+
+.box-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.box-4 .madicine {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.box-4 .flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.box-4 .item {
+
+    /* border: 1px solid gray; */
+    width: 250px;
+    /* height: 150px; */
+    margin: 30px;
+}
+
+.box-4 .item ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.box-4 .item i {
+    margin-left: 10px;
+    color: rgba(36, 132, 235, 0.731);
+
+}
+
+.box-4 .item p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.box-4 .item span {
+    font-weight: normal;
+    color: gray;
+    margin-top: 20px;
+}
+
+
+/* ------------------box-5-------------------------*/
+
+.box-5 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 290px;
+
+}
+
+
+.box-5 .madicine {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    margin: 100px 0;
+
+}
+
+.box-5 .card {
+
+    border: 1px solid rgba(12, 55, 250, 0.68);
+    width: 260px;
+    height: 550px;
+
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+
+}
+
+
+.box-5 .card p {
+    margin-top: 20px;
+    color: gray;
+}
+
+.box-5 .card h3 {
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.box-5 .card sub,
+sup {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.box-5 .card ul {
+    list-style: none;
+    display: flex;
+
+}
+
+
+.box-5 .card i {
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.box-5 .card ul p {
+    color: black;
+    margin-left: 4px;
+    /* font-weight: bold; */
+    margin-right: 5px;
+
+}
+
+.box-5 .card .gray {
+    background-color: gray;
+}
+
+.box-5 .card .green {
+
+    background-color: green;
+}
+
+.box-5 .card .btn {
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    margin-left: 15px;
+}
+
+.box-5 .box11,
+.box13 {
+    margin-top: 40px;
+}
+
+.box-5 .box12 {
+    background-color: rgb(8, 0, 23);
+    height: 590px;
+
+}
+
+.box-5 .box12 h2 {
+    color: white;
+
+}
+
+.box-5 .box12 ul {
+    color: white;
+
+}
+
+.box-5 .box12 ul p {
+    color: white;
+}
+
+.box-5 .box12 ul i {
+    background-color: green;
+}
+
+.box-5 .box13 ul i {
+    background-color: green;
+}
+
+
+/* ------------------box-6-------------------------*/
+
+
+.box-6 {
+    display: flex;
+    background-color: rgba(0, 0, 21, 0.958);
+    width: 1350px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box-6 .flex {
+    margin-left: 100px;
+    display: flex;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 10px;
+}
+
+.box-6 .flex input {
+    height: 40px;
+    width: 250px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.box-6 .flex .sub {
+    background-color: rgba(0, 0, 255, 0.587);
+    height: 30px;
+    width: 150px;
+    padding-top: 15px;
+
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+/* ------------------box-7-------------------------*/
+.box-7 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px;
+    margin-left: 150px;
+
+
+
+}
+
+.box-7 .footer-card {
+    /* border: 1px solid red; */
+    height: 100%;
+    /* padding-left: 50px; */
+}
+
+.box-7 .footer-card ul {
+    list-style: none;
+    color: gray;
+    padding-top: 20px;
+}
+
+.box-7 .footer-card ul li i {
+    color: rgb(32, 32, 251);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.box-7 .footer-card ul li .fa-instagram,
+.fa-twitter {
+    margin-left: 10px;
+}
+
+.box-7 .footer-card li {
+    margin-top: 10px;
+
+}
+
+/* ------------------box-8-------------------------*/
+.box-8 {
+    text-align: center;
+    align-self: center;
+    padding-bottom: 20px;
+    color: gray;
+}
